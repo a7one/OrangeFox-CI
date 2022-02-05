@@ -3,11 +3,11 @@ env:
     FOX_SYNC: https://gitlab.com/OrangeFox/sync.git
 
     # Device
-    FOX_BRANCH: fox_9.0
-    DT_LINK: https://gitlab.com/OrangeFox/device/beryllium.git -b fox_9.0
-    DEVICE: beryllium
+    FOX_BRANCH: fox_10.0-R
+    DT_LINK: https://github.com/OrangeFoxRecovery/device_xiaomi_camellia.git -b fox_10.0-R
+    DEVICE: camellia
     OEM: xiaomi
-    TARGET: recoveryimage
+    TARGET: bootimage
 
     DT_PATH: device/$OEM/$DEVICE
     OUTPUT: OrangeFox*.zip
